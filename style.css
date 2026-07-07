@@ -9,9 +9,9 @@ body {
 }
 
 .container {
-    max-width: 700px;
+    max-width: 800px;
     background-color: #112240;
-    padding: 40px;
+    padding: 50px;
     border-radius: 16px;
     box-shadow: 0 15px 35px rgba(2, 12, 27, 0.7);
     border-top: 6px solid #64ffda;
@@ -19,31 +19,57 @@ body {
 
 h1 {
     color: #64ffda;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-bottom: 10px;
     text-align: center;
     letter-spacing: 1px;
+}
+
+h2 {
+    color: #00b4d8;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-left: 4px solid #64ffda;
+    padding-left: 12px;
 }
 
 .header p {
     text-align: center;
     font-style: italic;
     color: #8892b0;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
 }
 
 p {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #e2e8f0;
+    margin-bottom: 20px;
+}
+
+.info-block {
+    background-color: #1a365d;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 30px 0;
+    border-right: 4px solid #00b4d8;
 }
 
 .list-container {
     background-color: #1d3557;
-    padding: 25px;
+    padding: 30px;
     border-radius: 12px;
-    margin: 25px 0;
+    margin: 30px 0;
     border: 1px solid #457b9d;
+}
+
+.text-highlight {
+    background: linear-gradient(135deg, #112240, #1e3a8a);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px dashed #64ffda;
 }
 
 ul {
@@ -52,15 +78,16 @@ ul {
 }
 
 li {
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     font-weight: 500;
     color: #f1f5f9;
+    font-size: 1.05rem;
 }
 
 .footer {
     text-align: center;
-    margin-top: 40px;
-    padding-top: 20px;
+    margin-top: 50px;
+    padding-top: 30px;
     border-top: 1px solid #233554;
 }
 
@@ -69,8 +96,8 @@ a {
     color: #64ffda;
     text-decoration: none;
     font-weight: bold;
-    margin: 0 15px;
-    padding: 10px 20px;
+    margin: 10px 15px;
+    padding: 12px 24px;
     border: 2px solid #64ffda;
     border-radius: 8px;
     background-color: transparent;
@@ -80,5 +107,5 @@ a {
 a:hover {
     background-color: #64ffda;
     color: #0a192f;
-    box-shadow: 0 0 15px rgba(100, 255, 218, 0.4);
+    box-shadow: 0 0 20px rgba(100, 255, 218, 0.6);
 }
